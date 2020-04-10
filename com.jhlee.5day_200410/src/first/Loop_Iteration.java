@@ -5,31 +5,31 @@ public class Loop_Iteration {
 	public static void main(String[] args) {
 		java.util.Scanner sc = new java.util.Scanner(System.in);
 			
-		//Ãâ¹ßÁ¡ »ı¼º
+		//ì¶œë°œì  ìƒì„±
 		//int idx = 1;
-		//while(idx < 4) { //or (idx < 3) //-Á¾·áÁ¡ {
+		//while(idx < 4) { //or (idx < 3) //-ì¢…ë£Œì  {
 			//System.out.println("Java" + idx);
-			//Áß°£¿¡ ¼öÇàÇÒ ³»¿ë
+			//ì¤‘ê°„ì— ìˆ˜í–‰í•  ë‚´ìš©
 			//idx = idx + 1;
 		//System.out.println("============");
 		
 		//int idx = 1;
-		//while(idx < 5) { //or (idx < 3) //-Á¾·áÁ¡ {
+		//while(idx < 5) { //or (idx < 3) //-ì¢…ë£Œì  {
 			//System.out.println("Image" + idx + ".png");
-			//Áß°£¿¡ ¼öÇàÇÒ ³»¿ë
+			//ì¤‘ê°„ì— ìˆ˜í–‰í•  ë‚´ìš©
 			//idx = idx + 1;
 		//}
 		//idx = 1;
-		//while(idx < 5) { //or (idx < 3) //-Á¾·áÁ¡ {
+		//while(idx < 5) { //or (idx < 3) //-ì¢…ë£Œì  {
 				//System.out.println("Image" + idx + ".png");
-				//Áß°£¿¡ ¼öÇàÇÒ ³»¿ë
+				//ì¤‘ê°„ì— ìˆ˜í–‰í•  ë‚´ìš©
 				//idx = idx + 1;
 		//}
 		int idx = 0;
-		while(idx < 9) { //or (idx < 3) //-Á¾·áÁ¡ {
+		while(idx < 9) { //or (idx < 3) //-ì¢…ë£Œì  {
 		
-				System.out.println("Image" + (idx%4) + ".pngg");
-				//Áß°£¿¡ ¼öÇàÇÒ ³»¿ë			
+				System.out.println("Image" + (idx%4) + ".png");
+				//ì¤‘ê°„ì— ìˆ˜í–‰í•  ë‚´ìš©			
 				idx = idx + 1;
 		}
 			sc.close();
