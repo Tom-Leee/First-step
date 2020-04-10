@@ -28,7 +28,7 @@ public class Loop_Iteration {
 		int idx = 0;
 		while(idx < 9) { //or (idx < 3) //-종료점 {
 		
-				System.out.println("Image" + (idx%4) + ".png");
+				System.out.println("Image" + (idx%4) + ".pngg");
 				//중간에 수행할 내용			
 				idx = idx + 1;
 		}
